@@ -1,4 +1,4 @@
-TYPE;Model;Imax.in[A];m[g];Vmax.in[V];Pmax.in[W]
+TYPE;Model;I_max_A;Mass_g;V_max_V;Power_max_W
 JIVE;Jive 80+ LV ;80;84;22.2;1776
 JIVE;Jive 100+ LV ;100;92;22.2;2220
 JIVE;FAI Jive 150+ LV ;150;140;18.5;2775
