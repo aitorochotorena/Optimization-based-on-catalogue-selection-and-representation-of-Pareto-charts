@@ -1,4 +1,4 @@
-TYPE;Model;Voltage_V;Capacity_mAh;Discharge_Rate_C;Max_Burst_Discharge_Rate_C;Weight_g;Max_burst_current_A;Volume_mm3;Energy_density_Wh_kg;Imax [A];Pmax_W_kg;Pvol_Wh_m3;Energy_J
+TYPE;Model;Voltage_V;Capacity_mAh;Discharge_Rate_C;Max_Burst_Discharge_Rate_C;Weight_g;Max_burst_current_A;Volume_mm3;Energy_density_Wh_kg;Imax_A;Pmax_W_kg;Pvol_Wh_m3;Energy_J
 TATTU;TATTU;11.1;1300;45;90;119;58.5;59616;121.2605042;117;10913.44538;242049.1143;51948
 TATTU;TATTU;11.1;1550;45;90;128;69.75;63648;134.4140625;139.5;12097.26563;270314.8567;61938
 TATTU;TATTU;11.1;1800;45;90;156;81;64032;128.0769231;162;11526.92308;312031.4843;71928
