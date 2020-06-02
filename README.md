@@ -5,3 +5,4 @@ binder deploys a file
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aitorochotorena/Optimization-based-on-catalogue-selection-and-representation-of-Pareto-charts/master?urlpath=voila%2Frender%2F3-Optimization_Catalogues_DecisionTrees_Performance.ipynb)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aitorochotorena/Optimization-based-on-catalogue-selection-and-representation-of-Pareto-charts/master?filepath=3-Optimization_Catalogues_DecisionTrees_Performance.ipynb)
