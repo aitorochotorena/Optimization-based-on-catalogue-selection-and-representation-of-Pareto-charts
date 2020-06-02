@@ -13,10 +13,10 @@ from sklearn.tree import DecisionTreeRegressor
 def average_DT(df_X,df_y,x_ref):
     # create a regressor object (https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
     regressorAver = DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=1,
-               max_leaf_nodes=len(df_X), min_impurity_decrease=0.0,
+               max_leaf_nodes=len(df_XNext), min_impurity_decrease=0.0,
                min_impurity_split=None, min_samples_leaf=1,
                min_samples_split=2, min_weight_fraction_leaf=0.0,
-               presort=False, random_state=None, splitter='best')
+               random_state=None, splitter='best')
 
     # fit the regressor with X and Y data 
     regressorAver.fit(df_X.values.reshape(-1,1) , df_y.values.reshape(-1,1)) 
@@ -51,10 +51,10 @@ def previous_DT(df_X,df_y,x_ref):
 
     # create a regressor object (https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
     regressorPrev = DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=1,
-               max_leaf_nodes=len(df_XPrev), min_impurity_decrease=0.0,
+               max_leaf_nodes=len(df_XNext), min_impurity_decrease=0.0,
                min_impurity_split=None, min_samples_leaf=1,
                min_samples_split=2, min_weight_fraction_leaf=0.0,
-               presort=False, random_state=None, splitter='best')
+               random_state=None, splitter='best')
 
     # fit the regressor with X and Y data 
     regressorPrev.fit(df_XPrev, df_yPrev) 
@@ -95,7 +95,7 @@ def next_DT(df_X,df_y,x_ref):
                max_leaf_nodes=len(df_XNext), min_impurity_decrease=0.0,
                min_impurity_split=None, min_samples_leaf=1,
                min_samples_split=2, min_weight_fraction_leaf=0.0,
-               presort=False, random_state=None, splitter='best')
+               random_state=None, splitter='best')
 
     # fit the regressor with X and Y data 
     regressorNext.fit(df_XNext, df_yNext) 
